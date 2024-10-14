@@ -1,0 +1,8 @@
+CREO UNA TABELLA DI UN DATABASE DI AUTO USATE IN VENDITA
+
+ID                   |
+Marca                |
+Modello              |
+Anno                 |
+Km                   |
+N_proprietari        |
