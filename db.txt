@@ -1,8 +1,8 @@
 CREO UNA TABELLA DI UN DATABASE DI AUTO USATE IN VENDITA
 
-ID                   |
-Marca                |
-Modello              |
-Anno                 |
-Km                   |
-N_proprietari        |
+ID                   |          INT          /* Uso int perchè prevedo meno di 2MLRD di record.
+Marca                |          VARCHAR(50)  /* Gli do una lunghezza max di 50 car.
+Modello              |          VARCHAR(50)    /*
+Anno                 |          YEAR         /* Uso proprietà year ideale per gli anni
+Km                   |          MEDIUMINT    /* Prevedo meno di 8MLN circa di record, quindi uso mediumINT, più piccolo di INT, ma comunque più grande di TINYINT che sarebbe stato insufficente.       
+N_proprietari        |          TINYINT      /* Prevedo anche nel caso più estremo che il numero di proprietari non superi mai i 255
