@@ -16,11 +16,6 @@ The table includes the following fields:
 - **color**: Color of the car
 - **vin**: Vehicle Identification Number
 
-## 🛠️ Technologies Used
-
-- **Database**: MySQL or PostgreSQL (specify the one you are using)
-- **ORM**: (e.g., Sequelize, Entity Framework)
-
 ## 📫 Contact
 
 For questions or suggestions, please reach out to:
